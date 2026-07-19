@@ -1,2 +1,2 @@
 #!/bin/bash
-tree | sed 's/$/  /'
+tree | sed 's/$/  /' | sed 's/	/        /g'
